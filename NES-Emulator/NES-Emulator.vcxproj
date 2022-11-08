@@ -23,10 +23,11 @@
     <Text Include="README.md" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\Source.cpp" />
+    <ClInclude Include="include\CPU.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="include\CPU.h" />
+    <ClCompile Include="src\CPU.cpp" />
+    <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
