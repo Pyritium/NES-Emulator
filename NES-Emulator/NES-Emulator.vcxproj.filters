@@ -7,4 +7,7 @@
   <ItemGroup>
     <ClCompile Include="src\Source.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\CPU.h" />
+  </ItemGroup>
 </Project>
