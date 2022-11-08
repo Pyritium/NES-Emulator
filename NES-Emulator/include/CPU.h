@@ -59,7 +59,6 @@ private:
 	//OPCODES:
 	static constexpr uint8_t LDA_IM = 0xA9; //LDA - Load Accumulator
 											//0xA9 - Immediate Addressing Mode
-
 	uint16_t PC; // Program counter
 	uint16_t SP; // Stack pointer
 
